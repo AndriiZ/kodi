@@ -22,11 +22,17 @@ RADIOS = {'JamFM': {'name': 'JamFM (95.6)', 'thumb': 'http://jamfm.com.ua/i/raw/
 		  'UR2': {'name': 'Радіо Промінь', 'thumb': 'http://proradio.org.ua/logos/prominbig.jpg', 'url': 'http://nrcu.gov.ua:8000/ur2-mp3', 'desc': 'Слухай українське!', 'genre': 'Talk'},
           'RadioROKS': {'name': 'Радіо РОКС', 'thumb': 'http://www.proradio.org.ua/logos/roksbig.jpg', 'url': 'http://online-radioroks.tavrmedia.ua/RadioROKS', 'desc': 'Рок, тільки рок', 'genre': 'Talk'},
           'RadioEra': {'name': 'Радіо Ера', 'thumb': 'http://eramedia.com.ua/images/logo_3.png?ua', 'url': 'http://212.26.129.2:8000/era96', 'desc': 'Твій медіа навігатор', 'genre': 'Talk'},
-          'RadioYes': {'name': 'Радіо ЄС', 'thumb':'http://www.proradio.org.ua/logos/biges.gif', 'url': 'http://80.91.181.136:8000/kiev', 'desc': 'Радіо європейської столиці', 'genre':'Music'},
+          'RadioEra': {'name': 'Радіо Ера', 'thumb': 'http://eramedia.com.ua/images/logo_3.png?ua', 'url': 'http://212.26.129.2:8000/era96', 'desc': 'Твій медіа навігатор', 'genre': 'Talk'},
+          'RadioYes': {'name': 'Радіо ЄС', 'thumb':'http://www.proradio.org.ua/logos/biges.gif', 'url': 'http://185.65.245.34:8000/kiev', 'desc': 'Радіо європейської столиці', 'genre':'Music'},
           'BusinessRadio': {'name': 'Бізнес радіо', 'thumb': 'http://www.proradio.org.ua/logos/business938big.gif','url': 'http://217.20.164.163:8018', 'desc':'Новий формат ваших рішень', 'genre': 'Music'},
-          'FMHalychyna': {'name': 'ФМ Галичина', 'thumb':'http://www.proradio.org.ua/logos/bigfmgalychyna.jpg', 'url': 'http://ua.uar.net:8000/galychyna', 'desc': '', 'genre': 'Misc'},
-		  'UR3': {'name': 'Радіо Культура', 'thumb': 'http://proradio.org.ua/logos/ur3big.jpg', 'url': 'http://nrcu.gov.ua:8000/ur3-mp3', 'desc': 'Канал духовного відродження', 'genre': 'Talk'},
-          'FMAristocrats': {'name': 'Aristocrats FM', 'thumb': 'https://scontent-frt3-1.xx.fbcdn.net/hprofile-xap1/v/t1.0-1/12119090_1705753319656877_247773860828234647_n.png?oh=d8496086fa3e4b5b696bfcdc75fe6a11&oe=568C7D4B', 'url': 'http://air.aristocrats.fm:8000/live2', 'genre': 'Misc', 'desc':'Радио Аристократы'}
+          'UR3': {'name': 'Радіо Культура', 'thumb': 'http://proradio.org.ua/logos/ur3big.jpg', 'url': 'http://nrcu.gov.ua:8000/ur3-mp3', 'desc': 'Канал духовного відродження', 'genre': 'Talk'},
+          'FMAristocrats': {'name': 'Aristocrats FM', 'thumb': 'https://scontent-frt3-1.xx.fbcdn.net/hprofile-xap1/v/t1.0-1/12119090_1705753319656877_247773860828234647_n.png?oh=d8496086fa3e4b5b696bfcdc75fe6a11&oe=568C7D4B', 'url': 'htt\
+p://air.aristocrats.fm:8000/live2', 'genre': 'Misc', 'desc':'Радио Аристократы'},
+          'Hvylia': {'name': 'Радіохвиля', 'url': 'http://radiohvilya.com.ua:8000/radiohvilya?type=.mp3', 'thumb': 'https://scontent-fra3-1.xx.fbcdn.net/hphotos-xta1/t31.0-8/11899777_1457239817916758_8834705431766478969_o.png', 'genre':\
+ 'Music', 'desc': 'Слухай серцем'},
+          'Molode': {'name': 'Молоде радіо', 'url': 'http://molode.com.ua:8128/', 'thumb': 'http://molode.com.ua/pics/r01.jpg', 'genre': 'Music', 'desc': '100% сучасної української музики онлайн! Contemporary UA music online!'},
+          'Radio24': {'name': 'Радіо 24', 'url': 'http://icecast.luxnet.ua/radio24', 'thumb': 'http://staticcdn.luxnet.ua/radio24/assets/img/logo-r24.png', 'genre': 'Misc', 'desc': 'Будь собою!'},
+          'Skovoroda': {'name': 'Радіо Сковорода', 'url': 'http://195.248.234.62:8000/radioskovoroda', 'thumb': 'http://radioskovoroda.com/templates/skovoroda/images/logo-smal.png', 'genre': 'Misc', 'desc': ''}
           }
 
 def get_stations():
