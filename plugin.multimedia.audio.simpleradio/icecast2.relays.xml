@@ -103,7 +103,7 @@
         <relay-shoutcast-metadata>1</relay-shoutcast-metadata>
     </relay>
 	<relay>
-        <server>195.248.234.62</server>
+        <server>stream.radioskovoroda.com</server>
         <port>8000</port>
         <mount>/radioskovoroda</mount>
         <local-mount>/radioskovoroda</local-mount>
